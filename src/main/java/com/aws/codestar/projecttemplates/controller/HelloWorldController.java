@@ -26,7 +26,7 @@ public class HelloWorldController {
     }
     
     @RequestMapping("login")
-    public ModelAndView helloWorld() {
+    public ModelAndView login() {
         ModelAndView mav = new ModelAndView("login");
         return mav;
     }
