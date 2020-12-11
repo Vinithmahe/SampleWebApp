@@ -24,5 +24,11 @@ public class HelloWorldController {
         mav.addObject("siteName", this.siteName);
         return mav;
     }
+    
+    @RequestMapping("login")
+    public ModelAndView helloWorld() {
+        ModelAndView mav = new ModelAndView("login");
+        return mav;
+    }
 
 }
